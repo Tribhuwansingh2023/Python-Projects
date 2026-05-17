@@ -7,13 +7,13 @@ This is a complete console-based Java JDBC mini project that uses Apache Derby E
 Project folder name:
 
 ```text
-2341019594_Anwesha
+2341013065_PritiRani
 ```
 
 Java root package:
 
 ```text
-Anwesha_2341019594
+pritirani_2341013065
 ```
 
 The package name is different from the folder name because Java package identifiers cannot start with numbers.
@@ -47,7 +47,7 @@ The package name is different from the folder name because Java package identifi
 ## Folder Structure
 
 ```text
-2341019594_Anwesha/
+2341013065_PritiRani/
 |
 +-- lib/
 |   +-- derby.jar
@@ -55,7 +55,7 @@ The package name is different from the folder name because Java package identifi
 |   +-- derbytools.jar
 |
 +-- src/
-|   +-- Anwesha_2341019594/
+|   +-- pritirani_2341013065/
 |       +-- MainApp.java
 |       |
 |       +-- db/
@@ -142,7 +142,7 @@ All three jars should be included in the runtime classpath using `lib/*`.
 Open PowerShell in the project folder:
 
 ```powershell
-cd "C:\Users\priti\Downloads\DIIJ Project\2341019594_Anwesha"
+cd "C:\Users\priti\Downloads\DIIJ Project\2341013065_PritiRani"
 ```
 
 Create the output folder:
@@ -165,13 +165,13 @@ Note: the source code imports only standard Java APIs at compile time. Derby jar
 Run the console application:
 
 ```powershell
-java -cp "out;lib/*" Anwesha_2341019594.MainApp
+java -cp "out;lib/*" pritirani_2341013065.MainApp
 ```
 
 On Linux or macOS, use `:` instead of `;` in the classpath:
 
 ```bash
-java -cp "out:lib/*" Anwesha_2341019594.MainApp
+java -cp "out:lib/*" pritirani_2341013065.MainApp
 ```
 
 The first run creates the `libraryDB` Derby database directory automatically.
@@ -198,15 +198,15 @@ The application provides these options:
 Start the app:
 
 ```powershell
-java -cp "out;lib/*" Anwesha_2341019594.MainApp
+java -cp "out;lib/*" pritirani_2341013065.MainApp
 ```
 
 Example session:
 
 ```text
 1. Register Member
-Name: Anwesha
-Email: Anwesha@example.com
+Name: PritiRani
+Email: pritirani@example.com
 Member registered with ID: 1
 
 2. Add Book
@@ -232,7 +232,7 @@ Book returned successfully.
 The application includes a non-interactive self-test mode:
 
 ```powershell
-java -cp "out;lib/*" Anwesha_2341019594.MainApp --self-test
+java -cp "out;lib/*" pritirani_2341013065.MainApp --self-test
 ```
 
 This performs:
